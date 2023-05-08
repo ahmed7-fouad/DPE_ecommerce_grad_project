@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;800;900&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@100;300;500;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- url icon -->
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
+
+    <!-- normalize file -->
+    <link rel="stylesheet" href="css_files/normallize.css">
+
+    <!-- fontawsome file -->
+    <link rel="stylesheet" href="css_files/all.min.css">
+
+    <!-- main styling file -->
+    <link rel="stylesheet" href="css_files/style.css">
+
+    <title>Minimal Shopping</title>
+
+</head>
+<body>
+    <!-- aside section  -->
+    <section class="aside_cart">
+         <i class="fa-solid fa-xmark exit_icon"></i>
+        <h2 class="aside_cart_title">Your Cart</h2>
+        <section class="cart_content">
+       
+        <section class="total">
+            <section class="total_title">Total</section>
+            <section class="total_price">0</section>
+        </section>
+        
+        </section>
+        <button type="button" class="buy_btn">Buy Now</button>
+    </section>
+
+     <!-- start nav section -->
+        <nav>
+            <section class="container">
+
+                <a class="logo" href="index.html">
+                    <img src="images/logo.svg" alt="">
+                    <p>Minimal <span>Shop</span>ping</p>
+                </a>
+                
+                <a href="#" class="user_icon" >
+                    <span>0</span>
+                    <i class="fa-solid fa-user"></i>
+                </a>
+
+            </section>
+        </nav>
+    <!-- end nav section -->
+
+    <section class="login_page">
+        <section class="login_page_container">
+
+            <section class="login_page_content">
+            <h3 class="login_page_title">Hello Again!</h3> 
+            <p class="login_page_text">Welcome Back You’ve Been Missed!</p>
+
+            <p class="login_page_note">To login enter Your email address and password</p>
+            <form action="" method="get">
+                <section class="inp_section">
+                    <label for="">User Name</label>
+                    <input type="password" name="Email">
+                    <section class="eye_shape_container">
+                    <i class="fa-solid fa-eye eye_shape"></i>
+                    <section class="eye_line"></section>
+                    </section>
+                </section>
+
+                <section class="inp_section">
+                    <label for="">Password</label>
+                    <input type="password" name="Password">
+
+                    <section class="eye_shape_container">
+                    <i class="fa-solid fa-eye eye_shape"></i>
+                    <section class="eye_line"></section>
+                    </section>
+                </section>
+
+                <section class="remember_me">
+
+                <section class="checkbox_parent">
+                    <section class="eye_shape_container">
+                    <i class="fa-solid fa-check check eye_shape"></i>
+                    <section class="eye_line"></section>
+                    </section>
+
+                    <input type="checkbox" id="remember" name="rememberMe">
+                </section>
+
+                <label for="remember">Remember me</label>                
+                </section>
+                <button type="submit">Login</button>
+                
+            </form>
+        </section>
+
+    </section>
+</section>
+
+
+    <section class="empty_section" style="height:315px;"></section> 
+            <script src="js-files/login.js"></script>
+            <script src="js_files/fetch_products.js"></script>
+</body>
+</html>

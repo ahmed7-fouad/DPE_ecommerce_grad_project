@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;800;900&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@100;300;500;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- url icon -->
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
+
+    <!-- normalize file -->
+    <link rel="stylesheet" href="css_files/normallize.css">
+
+    <!-- fontawsome file -->
+    <link rel="stylesheet" href="css_files/all.min.css">
+
+    <!-- main styling file -->
+    <link rel="stylesheet" href="css_files/style.css">
+
+    <title>Minimal Shopping</title>
+
+</head>
+<body>
+    <button class="scroll_up">
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </button>
+    <!-- start nav section -->
+    <nav>
+            <section class="container">
+
+                <a class="logo" href="index.html">
+                    <img src="images/logo.svg" alt="">
+                    <p>Minimal <span>Shop</span>ping</p>
+                </a>
+                
+                <a href="#" class="user_icon" >
+                    <span>0</span>
+                    <i class="fa-solid fa-user"></i>
+                </a>
+
+            </section>
+        </nav>
+
+    <!-- end nav section  -->
+
+    
+    <section class="aside_cart">
+         <i class="fa-solid fa-xmark exit_icon"></i>
+        <h2 class="aside_cart_title">Your Cart</h2>
+        <section class="cart_content">
+       
+        <section class="total">
+            <section class="total_title">Total</section>
+            <section class="total_price">0</section>
+        </section>
+        
+        </section>
+        <button type="button" class="buy_btn">Buy Now</button>
+    </section>
+
+
+
+    <!-- start products -->
+     <section class="aside_cart">
+         <i class="fa-solid fa-xmark exit_icon"></i>
+        <h2 class="aside_cart_title">Your Cart</h2>
+        <section class="cart_content">
+        <section class="cart_box">
+            <img src="images/product_image_1.png" alt="" class="cart_product_image">
+            <section class="cart_product_details">
+                <h4 class="cart_product_title">iphone 9</h4>
+                <p class="cart_product_price">$25</p>
+                <input type="number" class="cart_products_number" value="1">
+            </section>
+
+            <i class="fa-solid fa-trash trash"></i>
+
+        </section>
+        <section class="total">
+            <section class="total_title">Total</section>
+            <section class="total_price">$0</section>
+        </section>
+        
+    </section>
+    <button type="button" class="buy_btn">Buy Now</button>
+</section>
+
+    <section class="products">
+        <section class="special_heading">
+            <h2>All Products</h2>
+        </section>
+    
+    <section class="container">
+        <!-- card 1 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_1.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=0'">
+                <section class="product_identity">
+                    <span class="product_type">
+
+                </span>
+                    <span class="product_price">
+                        85$
+                    </span>
+                </section>
+                <span class="product_description">
+                    An apple mobile which is nothing like apple, An apple mobile which is nothing like apple
+                </span>
+            </section>
+        </section>
+
+    
+
+    <!-- card 2 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_2.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=1'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        73$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+    
+
+    <!-- card 3 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_5.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=2'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        120$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 4 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=3'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        Rounded neck - T shirt 100% Cotton
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 5 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_1.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=4'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        85$
+                    </span>
+                </section>
+                <span class="product_description">
+                    An apple mobile which is nothing like apple, An apple mobile which is nothing like apple
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 6 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_2.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=5'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        73$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 7 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_3.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=6'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        67$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 8 -->
+        <section class="card">
+            <section class="love_icon" >
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=7'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        Rounded neck - T shirt 100% Cotton
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 9 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_1.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=8'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        Rounded neck - T shirt 100% Cotton
+                    </span>
+                    <span class="product_price">
+                        85$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 10 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_5.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=9'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        120$
+                    </span>
+                </section>
+                <span class="product_description">
+                    An apple mobile which is nothing like apple, An apple mobile which is nothing like apple
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 11 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_3.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=10'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        67$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+    
+
+    <!-- card 12 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=11'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+
+        <!-- card 13 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=12'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+
+
+<!-- card 14 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=13'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+<!-- card 15 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=14'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+
+        <!-- card 16 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=15'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+
+
+        <!-- card 17 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=16'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 18 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=17'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 19 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=18'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 20 -->
+
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=19'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+
+        <!-- card 21 -->
+
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=20'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 22 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=21'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 23 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=22'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 24 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=23'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+
+        <!-- card 25 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=24'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 26 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=25'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 27 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=26'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 28 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=27'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 29 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=28'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+        <!-- card 30 -->
+        <section class="card">
+            <section class="love_icon">
+              <i class="fa-regular fa-heart"></i>  
+            </section>
+            <img src="images/product_image_4.png" alt="product_image">
+            <section class="card_content" onclick="location.href='product_details.html?id=29'">
+                <section class="product_identity">
+                    <span class="product_type">
+                        iPhone 9
+                    </span>
+                    <span class="product_price">
+                        99$
+                    </span>
+                </section>
+                <span class="product_description">
+                    Organic Cotton, Fair Trade quality
+                </span>
+            </section>
+        </section>
+
+    </section>
+</section>
+
+    <!-- end products section -->
+    
+    <script src="js_files/scroll_btn.js"></script>
+    <script src="js_files/style.js"></script>
+        <script src="js_files/fetch_products.js"></script>
+        
+
+</body>
+</html>
